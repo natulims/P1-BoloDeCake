@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>petshop</title>
+
+    <!--css-->
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+    <!--ícone carrinho-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--fonte título-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!--fonte texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+
+    <!----header---->
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div class='bx bx-menu' id="icone-menu"></div>
+
+        <nav>
+        <ul class="barra-menu">
+            <li><a href="#home">Home</a></li>
+            
+            <li><a href="#">Sobre nós <i class='bx bx-chevron-down' ></i></a>
+                <ul>
+                    <li><a href="#">Nossa equipe</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#"><i class='bx bx-cart-alt'></i></a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <!----home---->
+    <section class="home" id="home">
+        <div class="texto-home">
+        <h1>Bolo <br> de <br> Cake</h1>
+        <p>Sua nova experiência <br> na confeitaria gourmet</p>
+        </div>
+    </section>
+
+    <!----desenhos natalia---->
+    <section>
+        <div class="titulo">
+            <h2>Saiba mais sobre nós</h2>
+        </div>
+
+        <div class="container-itens">
+            <div class="caixa-img">
+                <div class="img-desenhos">
+                    <img src="https://i.pinimg.com/originals/d3/be/08/d3be083885874b41ff1d50fc946c666a.png">
+                </div>
+            </div>
+
+            <div class="caixa-img">
+                <div class="img-desenhos">
+                    <img src="https://images.unsplash.com/photo-1611267254323-4db7b39c732c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHw%3D&w=1000&q=80">
+                </div>
+            </div>
+
+            <div class="caixa-img">
+                <div class="img-desenhos">
+                    <img src="https://images-cdn.9gag.com/photo/ad8PnPZ_700b.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--produtos-->
+     <section>
+        <div class="titulo">
+            <h2>Saiba mais sobre nós</h2>
+        </div>
+
+        <div class="container-itens">
+            <div class="caixa-img">
+                <div class="img-doces">
+                    <img src="https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/10/a21f824b-naked-cake-_-tm-kite-festa_-faca-venda-_-karen-silva-_-alta-1.jpg">
+                </div>
+                <h3>Bolos</h3>
+            </div>
+
+            <div class="caixa-img">
+                <div class="img-doces">
+                    <img src="https://files.nsctotal.com.br/s3fs-public/styles/paragraph_image_style/public/graphql-upload-files/shutterstock_1117053002.jpg?H3sLW3uHUrI2wskn4YxzOwfvgNophHcQ&itok=IDAo3GHt">
+                </div>
+                <h3>Doces</h3>
+            </div>
+
+            <div class="caixa-img">
+                <div class="img-doces">
+                    <img src="https://www.sweetpoint.com.br/wp-content/uploads/2020/06/kit-festa-3196-1-1.jpg">
+                </div>
+                <h3>Kit festa</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+     <section>
+        <hr>
+            <div class="footer">
+            <div class="principal-footer">
+                <div class="caixa-footer">
+                    <h4>Logo</h4>
+                    <ul>
+                        <li>cnpj: xx xxxxxx</li>
+                        <li>bolodecake@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="caixa-footer">
+                    <h4>Cadastre seu email e fique por dentro das novidades!</h4>
+                    <ul>
+                        <li>
+                            <input type="email" id="email">
+                            <label for="email"></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="check">
+                            <label for="check">Eu concordo em receber emails com novidades, promoções, etc.</label>
+                        </li>
+                        <button>Enviar</button>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+     </section>
+    
+     <!--js menu sticky-->
+    <script type="text/javascript" src="script/sticky.js"></script>
+</body>
+</html>
