@@ -55,6 +55,7 @@ header {
     color: var(--main-color);
 }
 
+
 /*menu*/
 .barra-menu {
     display: flex;
@@ -164,7 +165,7 @@ nav ul ul ul li {
 
 .container-itens {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     column-gap: 2rem;
     align-items: center;
     justify-content: center;
@@ -183,10 +184,9 @@ nav ul ul ul li {
 .img-desenhos img {
     height: 100%;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background: var(--bg-color);
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
-    border-radius: 50%;
     margin-bottom: 15px;
     cursor: pointer;
 }
