@@ -185,7 +185,7 @@ nav ul ul ul li {
     height: 100%;
     width: 100%;
     padding: 10px;
-    background: var(--bg-color);
+    background: var(--second-color);
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     margin-bottom: 15px;
     cursor: pointer;
