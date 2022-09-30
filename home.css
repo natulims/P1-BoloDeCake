@@ -211,17 +211,35 @@ nav ul ul ul li {
 
 
 /*footer*/
+.linha__fundo {
+    height: 13rem;
+    color: white;
+}
+
 .principal-footer {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .footer {
-    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+.caixa-footer:nth-child(1) {
+    justify-content: flex-start;
+    margin-top: 1rem;
 }
 
 .caixa-footer {
     width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 1rem;
 }
 
 .caixa-footer h4 {
