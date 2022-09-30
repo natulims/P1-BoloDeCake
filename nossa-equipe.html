@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--css-->
+    <link rel="stylesheet" href="/assets/reset.css">
+	<link rel="stylesheet" href="/assets/nossa-equipe.css">
+    <link rel="stylesheet" href="home.css">    
+
+    <!--ícone carrinho-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--fonte título-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!--fonte texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Bolo de Cake - Nossa equipe</title>
+</head>
+<body>
+    <!--header (menu)-->
+    <header>
+        <a href="#" class="logo"></a>
+        <div class='bx bx-menu' id="icone-menu"></div>
+
+        <nav>
+        <ul class="barra-menu">
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="#">Sobre nós <i class='bx bx-chevron-down' ></i></a>
+                <ul>
+                    <li><a href="nossa-equipe.html">Nossa equipe</a></li>
+                </ul>
+            </li>
+
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#"><i class='bx bx-cart-alt'></i></a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo__equipe">Nossa Equipe</h1>
+    
+    <main>
+        <div class="equipe__container">
+            <div class="equipe__content">
+                <img src="assets/img/nossa-equipe/dayse.jpeg" alt="" class="membro__img">
+                <h2 class="membro__nome">Dayse Campos</h2>
+                <p class="membro__funcao">Desenvolvedor Web</p>
+                <input type="button" value="Saber mais" class="membro__btn-sobre">
+            </div>
+            <div class="equipe__content">
+                <img src="assets/img/nossa-equipe/matheus.jpeg" alt="" class="membro__img">
+                <h2 class="membro__nome">Matheus Cardoso</h2>
+                <p class="membro__funcao">Desenvolvedor Web</p>
+                <input type="button" value="Saber mais" class="membro__btn-sobre">
+            </div>
+            <div class="equipe__content">
+                <img src="assets/img/nossa-equipe/natalia.jpeg" alt="" class="membro__img">
+                <h2 class="membro__nome">Natalia Carvalho</h2>
+                <p class="membro__funcao">Desenvolvedor Web</p>
+                <input type="button" value="Saber mais" class="membro__btn-sobre">
+            </div>
+            <div class="equipe__content">
+                <img src="assets/img/nossa-equipe/pedro.jpg" alt="" class="membro__img">
+                <h2 class="membro__nome">Pedro Moura</h2>
+                <p class="membro__funcao">Desenvolvedor Web</p>
+                <input type="button" value="Saber mais" class="membro__btn-sobre">
+            </div>
+            <div class="equipe__content">
+                <img src="assets/img/nossa-equipe/rafaela.jpeg" alt="" class="membro__img">
+                <h2 class="membro__nome">Rafaela Ochotorena</h2>
+                <p class="membro__funcao">Desenvolvedor Web</p>
+                <input type="button" value="Saber mais" class="membro__btn-sobre">
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="footer">
+            <div class="principal-footer">
+                <div class="caixa-footer">
+                    <h4>Logo</h4>
+                    <ul>
+                        <li>cnpj: xx xxxxxx</li>
+                        <li>bolodecake@gmail.com</li>
+                    </ul>
+                </div>
+
+                <hr class="linha__fundo">
+
+                <div class="caixa-footer">
+                    <h4>Cadastre seu email e fique por dentro das novidades!</h4>
+                    <ul>
+                        <li>
+                            <input type="email" id="email">
+                            <label for="email"></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="check">
+                            <label for="check">Eu concordo em receber emails com novidades, promoções, etc.</label>
+                        </li>
+                        <button>Enviar</button>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+<!--js menu sticky-->
+<script src="script/sticky.js"></script>
+
+</html>

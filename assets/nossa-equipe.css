@@ -1,0 +1,72 @@
+.titulo__equipe {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: var(--h2-font);
+    color: var(--main-color);
+    font-family: 'Dancing Script', cursive;
+}
+
+main {
+    max-width: 90%;
+    height: 50vh;
+    background: var(--main-color);
+    margin: 3rem auto;
+    color: var(--bg-color);
+}
+
+.equipe__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    border: 8px solid var(--second-color)
+}
+
+.equipe__content {
+    height: 80%;
+    width: 19%;
+    position: relative;
+    background: #fef2e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+    box-shadow: 2px 10px 15px rgb(128, 73, 6);
+    transition: all 0.3s ease;
+}
+
+.equipe__content:hover {
+    margin-bottom: 1rem;
+}
+
+.membro__img {
+    border: 3px solid rgb(128, 0, 0);;
+    border-radius: 100%;
+    width: 55%;
+    height: 45%;
+    object-fit: cover;
+}
+
+.membro__nome {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.membro__funcao {
+    font-size: .9rem;
+}
+
+.membro__btn-sobre {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 40px;
+    background-color: rgb(128, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.membro__btn-sobre:hover {
+    background-color: #391a1a;
+}
