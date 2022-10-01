@@ -1,5 +1,10 @@
+.home {
+    display: none;
+}
+
 /*cabecalho e slide de backgrounds*/
 .header__chamada {
+    margin-top: 0rem;
     max-width: 100%;
     width: 100vw;
     height: 40vw;
