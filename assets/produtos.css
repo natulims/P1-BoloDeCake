@@ -135,8 +135,7 @@
 }
 
 .titulo__produtos {
-    font-size: var(--h2-font);
-    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
     margin: 1rem auto;
     color: var(--main-color);
 }
@@ -144,7 +143,7 @@
 /*section*/
 .produtos__bolos,
 .produtos__doces {
-    width: 95%;
+    width: 100%;
     height: 0%;
     position: relative;
     display: flex;
@@ -154,6 +153,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 0;
     border: 8px solid var(--second-color)
+
 }
 
 .slide-container {

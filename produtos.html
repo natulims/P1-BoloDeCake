@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="assets/doces.css">
 
             <!--css-->
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
 
         <!--ícone carrinho-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -36,9 +36,9 @@
         <title>Bolos de Cake - Produtos</title>
     </head>
     <body>
-        <!--header (menu)-->
+        <!----header (menu)---->
         <header>
-            <a href="#" class="logo"></a>
+            <a href="#" class="logo">Logo</a>
             <div class='bx bx-menu' id="icone-menu"></div>
 
             <nav>
@@ -47,7 +47,7 @@
                 
                 <li><a href="#">Sobre nós <i class='bx bx-chevron-down' ></i></a>
                     <ul>
-                        <li><a href="nossa-equipe.html">Nossa equipe</a></li>
+                        <li><a href="#">Nossa equipe</a></li>
                     </ul>
                 </li>
 
@@ -57,6 +57,13 @@
             </ul>
             </nav>
         </header>
+            <!----home---->
+        <section class="home" id="home">
+            <div class="texto-home">
+            <h1>Bolo <br> de <br> Cake</h1>
+            <p>Sua nova experiência <br> na confeitaria gourmet</p>
+            </div>
+        </section>
 
         <section class="header__chamada">
             <div class="desconto__container">
@@ -443,14 +450,18 @@
             </div>
         </div>
     </section>
-     
-    </body>
+
+
     <!--js menu sticky-->
     <script type="text/javascript" src="script/sticky.js"></script>
 
     <!--script do swipe-->
-    <script src="script/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script/swiper-bundle.min.js"></script>
+
+     <!--inicializar swipe-->
+     <script type="text/javascript" src="script/slideProdutos.js"></script> 
+    </body>
     
-    <!--inicializar swipe-->
-    <script src="script/slideProdutos.js"></script>
+    
+    
 </html>
