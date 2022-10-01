@@ -39,6 +39,21 @@ function ready() {
      }
     }
 
+//remover item
+function removerItem(event) {
+    var botaoClicado = event.target;
+    botaoClicado.parentElement.remove();
+    atualizarTotal();
+}
+
+//valor do input 
+function outraQuantidade(event) {
+    var input = event.target;
+    if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1;
+    }
+    atualizarTotal();
+}
 
 //atualizar total
 
@@ -48,15 +63,10 @@ function atualizarTotal() {
     var total = 0;
     for (var i = 0; i < caixasCarrinho.length; i++) {
         var caixaCarrinho = caixasCarrinho[i];
-        
         var precoElemento = caixaCarrinho.getElementsByClassName('preco-carrinho')[0];
-        
-        var quantidadeElemento = caixaCarrinho.getElementsByClassName('quantidade-carrinho');
-        
+        var quantidadeElemento = caixaCarrinho.getElementsByClassName('quantidade-carrinho')[0];
         var preco = parseFloat(precoElemento.innerText.replace("R$", ""));
-        
         var quantidade = quantidadeElemento.value;
-        console.log(quantidade)
 
         total = total + preco * quantidade;
 
@@ -65,24 +75,3 @@ function atualizarTotal() {
         document.getElementsByClassName('preco-total')[0].innerText = "R$" + total;
     }
 }
-
-//remover item
-function removerItem(event) {
-    var botaoClicado = event.target;
-    botaoClicado.parentElement.remove();
-    atualizarTotal();
-}
-
-//mudar quantidades 
-function outraQuantidade(event) {
-    var input = event.target;
-    if (isNaN(input.value) || input.value <= 0) {
-        input.value = 1;
-    }
-    atualizarTotal();
-}
-
-
-
-
-
