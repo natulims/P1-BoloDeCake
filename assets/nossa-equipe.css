@@ -8,10 +8,12 @@
 
 main {
     max-width: 90%;
-    height: 50vh;
+    height: 60vh;
     background: var(--main-color);
     margin: 3rem auto;
     color: var(--bg-color);
+    background-color: rgb(27, 9, 1);
+
 }
 
 .equipe__container {
@@ -23,7 +25,7 @@ main {
 }
 
 .equipe__content {
-    height: 80%;
+    height: 85%;
     width: 19%;
     position: relative;
     background: #fef2e5;
@@ -49,7 +51,8 @@ main {
 }
 
 .membro__nome {
-    font-size: 1.2rem;
+    max-width: 100%;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -58,10 +61,11 @@ main {
 }
 
 .membro__btn-sobre {
+    max-width: 80%;
     border: none;
     font-size: 16px;
     color: #FFF;
-    padding: 8px 40px;
+    padding: 8px 15%;
     background-color: rgb(128, 0, 0);
     cursor: pointer;
     transition: all 0.3s ease;
