@@ -1,5 +1,5 @@
-.home {
-    display: none;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 /*cabecalho e slide de backgrounds*/
@@ -143,6 +143,8 @@
     font-size: 24px;
     margin: 1rem auto;
     color: var(--main-color);
+    font-family: 'Ms Madi', cursive;
+    font-size: var(--big-font);
 }
 
 /*section*/
@@ -225,6 +227,12 @@
 }
 
 .nome {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.preco-produtos {
     font-size: 18px;
     font-weight: 600;
     color: #333;

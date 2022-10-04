@@ -14,8 +14,8 @@
     --text-color: #FEF2E5;
     --main-color: #FDAB46;
     --second-color: #FD4243;
-    --big-font: 6rem;
-    --h2-font: 2rem;
+    --big-font: 6.5rem;
+    --h2-font: 3rem;
     --p-font: 1.1rem;
 }
 
@@ -47,14 +47,9 @@ header {
     padding: 30px 18%;
     transition: ease .40s;
 }
-
-.logo {
-    font-size: 35px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--main-color);
+.logo img {
+    width: 80px;
 }
-
 
 /*menu*/
 .barra-menu {
@@ -139,7 +134,7 @@ nav ul ul ul li {
 
 .texto-home h1 {
     font-size: var(--big-font);
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Ms Madi', cursive;
     line-height: 1.2;
     color: var(--main-color);
     letter-spacing: 4px;
@@ -157,6 +152,7 @@ nav ul ul ul li {
 
 /*desenhos natalia/doces*/
 .titulo h2 {
+    font-family: 'Ms Madi', cursive;
     text-align: center;
     justify-content: center;
     font-size: var(--h2-font);
@@ -185,7 +181,7 @@ nav ul ul ul li {
 .img-desenhos img {
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
     background: var(--second-color);
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     margin-bottom: 15px;
@@ -194,15 +190,14 @@ nav ul ul ul li {
 
 .caixa-img:hover {
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
     transform: translateY(-3px);
 }
 
 /*tamanho das imagens dos doces*/
 .img-doces img {
     height: 250px;
-    width: 250px;
-    padding: 15px;
+    width: 260px;
+    padding: 2px;
     background: var(--second-color);
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     border-radius: 50%;
@@ -263,16 +258,46 @@ nav ul ul ul li {
 .caixa-footer ul li:not(last-child) {
     margin-bottom: 15px;
 }
-
+/*
 #email {
     width: 200px;
+}*/
+
+#email{
+  background: var(--text-color);
+  border: 2px solid var(--main-color);
+  padding: 10px;
+  color: var(--second-color);
+  width: 250px;
+  height: 28px;
+  outline-color: var(--second-color);
 }
+
+.btn-footer {
+    cursor: pointer;
+    border: none;
+    background: var(--second-color);
+    color: var(--text-color);
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
 
 .caixa-footer ul li a {
     color: var(--text-color);
     font-size: 1.1rem;
     display: block;
     transition: .4s;
+}
+
+.logo-footer {
+    width: 90px;
+}
+
+.contato-footer li {
+    text-decoration: underline var(--main-color);
 }
 
 /*carrinho*/
@@ -385,4 +410,108 @@ nav ul ul ul li {
     font-size: 2rem;
     color: var(--text-color);
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    header {
+        padding: 17px 3%;
+        transition: .2s;
+    }
+    header.sticky {
+        padding: 10px 3%;
+        transition: .2s;
+    }
+    section {
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    :root {
+        --big-font: 4.5rem;
+        --h2-font: 4rem;
+        --p-font: 1rem;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1040px) {
+    header {
+        display: flex;
+        justify-content: end;
+    }
+    #icone-menu {
+        display: block;
+    }
+    .sticky #icone-menu {
+        color: var(--text-color);
+    }
+    .home {
+        height: 88vh;
+    }
+    .barra-menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 270px;
+        height: 120vh;
+        background: var(--second-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 30px;
+        transition: 0.5s all;
+    }
+    .barra-menu {
+        display: block;
+        margin: 1.2rem 0;
+    } 
+    .sticky .barra-menu a {
+        color: var(--bg-color);
+    }
+    .barra-menu a:hover {
+        color: var(--text-color);
+    }
+    .open {
+        right: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .principal-footer {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    :root {
+        --big-font: 3.8rem;
+        --h2-font: 1.8rem;
+        transition: .2s;
+    }
+    .home {
+        height: 85vh;
+        transition: .2s;
+    }
+
+    .container-itens {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+        column-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .img-desenhos img {
+        height: 250px;
+        width: 300px;
+        padding: 10px;
+        background: var(--second-color);
+        box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+   
+    
 }

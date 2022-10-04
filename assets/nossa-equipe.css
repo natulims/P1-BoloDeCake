@@ -1,18 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .titulo__equipe {
     margin-top: 8rem;
     text-align: center;
-    font-size: var(--h2-font);
+    font-size: var(--big-font);
     color: var(--main-color);
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-weight: 500;
 }
 
 main {
     max-width: 90%;
     height: 60vh;
-    background: var(--main-color);
     margin: 3rem auto;
     color: var(--bg-color);
-    background-color: rgb(27, 9, 1);
+    
 
 }
 
@@ -21,7 +25,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
-    border: 8px solid var(--second-color)
+    
 }
 
 .equipe__content {
@@ -34,7 +38,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5%;
-    box-shadow: 2px 10px 15px rgb(128, 73, 6);
+    
     transition: all 0.3s ease;
 }
 
@@ -43,7 +47,7 @@ main {
 }
 
 .membro__img {
-    border: 3px solid rgb(128, 0, 0);;
+    border: 3px solid var(--second-color);
     border-radius: 100%;
     width: 55%;
     height: 45%;
@@ -60,17 +64,58 @@ main {
     font-size: .9rem;
 }
 
-.membro__btn-sobre {
-    max-width: 80%;
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 15%;
-    background-color: rgb(128, 0, 0);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
 .membro__btn-sobre:hover {
     background-color: #391a1a;
 }
+
+.caixa-f ul li a:hover {
+    color: var(--text-color);
+    transform: translateY(-3px);   
+}
+
+.social {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    background: var(--main-color);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 1040px) {
+
+.equipe__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    
+}
+
+.equipe__content {
+    height: 85%;
+    width: 19%;
+    position: relative;
+    background: #fef2e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+    
+    transition: all 0.3s ease;
+}
+ }

@@ -35,9 +35,15 @@ function ready() {
      var quantidadeInput = document.getElementsByClassName('quantidade-carrinho');
      for (var i = 0; i < quantidadeInput.length; i++) {
         var input = quantidadeInput[i];
-        input.addEventListener('change', outraQuantidade)
+        input.addEventListener('change', outraQuantidade);
+     }
+     var adicionarCarrinho = document.getElementsByClassName('btn__comprar');
+     for (var i = 0; i < adicionarCarrinho.length; i++) {
+        var botao = adicionarCarrinho[i];
+        botao.addEventListener('click', adicionarItemCarrinho);
      }
     }
+
 
 //remover item
 function removerItem(event) {
@@ -53,6 +59,26 @@ function outraQuantidade(event) {
         input.value = 1;
     }
     atualizarTotal();
+}
+
+//adicionar ao carrinho
+function adicionarItemCarrinho(event){
+    var botao = event.target;
+    var comprarProdutos = botao.parentElement;
+    var titulo = comprarProdutos.getElementsByClassName('nome')[0].innerText;
+    var preco = comprarProdutos.getElementsByClassName('preco-produtos')[0].innerText;
+    adicionarProduto(titulo, preco);
+    atualizarTotal();
+}
+
+function adicionarProduto(titulo, preco) {
+    var caixaComprarCarrinho = document.createElement('div');
+    //caixaComprarCarrinho.classList.add('caixa-carrinho');
+    var itensCarrinho = document.getElementsByClassName('conteudo-carrinho')[0];
+    var nomeItens = itensCarrinho.getElementsByClassName('nome');
+    for (var i = 0; i < nomeItens.length; i++) {
+        alert('Você já adicionou esse item ao carrinho');
+    }
 }
 
 //atualizar total

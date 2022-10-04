@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--icone da aba-->
+    <link rel="icon" href="img/icone.png">
+    
         <!--css-->
     <link rel="stylesheet" href="assets/reset.css">
 	<link rel="stylesheet" href="assets/nossa-equipe.css">
@@ -15,7 +19,8 @@
     <!--fonte título-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
 
     <!--fonte texto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,23 +32,48 @@
 <body>
     <!--header (menu)-->
     <header>
-        <a href="#" class="logo"></a>
+        <a href="#" class="logo"><img src="img/logo1.png"></a>
         <div class='bx bx-menu' id="icone-menu"></div>
 
         <nav>
         <ul class="barra-menu">
             <li><a href="index.html">Home</a></li>
             
-            <li><a href="#">Sobre nós <i class='bx bx-chevron-down' ></i></a>
+            <li><a href="sobre-nos.html">Sobre nós <i class='bx bx-chevron-down' ></i></a>
                 <ul>
                     <li><a href="nossa-equipe.html">Nossa equipe</a></li>
                 </ul>
             </li>
 
             <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#"><i class='bx bx-cart-alt'></i></a></li>
-        </ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li id="icone-carrinho"><a href="#"><i class='bx bx-cart-alt'></i></a></li>
+        </ul> <!--carrinho-->
+        <div class="carrinho">
+            <h2 class="titulo-carrinho">Seus itens</h2>
+
+            <!--conteudo-->
+            <div class="conteudo-carrinho">
+                <div class="caixa-carrinho">
+                    <img src="img/bons-ingredientes.png" alt="" class="img-carrinho">
+                    <div class="caixa-itens">
+                        <div class="produtos-carrinho-titulo">Bolo</div>
+                        <div class="preco-carrinho">R$30</div>
+                        <input type="number" value="1" class="quantidade-carrinho">
+                    </div>
+                    <!--remover-->
+                    <i class='bx bxs-trash-alt remover-carrinho'></i>
+                </div>
+            </div>
+            <!--total-->
+            <div class="total">
+                <div class="titulo-total">Total</div>
+                <div class="preco-total">R$0</div>
+            </div>
+            <!--botoes-->
+            <button type="button" class="btn-comprar">Comprar agora</button>
+            <i class='bx bx-x' id="fechar-carrinho"></i>
+        </div>
         </nav>
     </header>
 
@@ -54,32 +84,47 @@
             <div class="equipe__content">
                 <img src="assets/img/nossa-equipe/dayse.jpeg" alt="" class="membro__img">
                 <h2 class="membro__nome">Dayse Campos</h2>
-                <p class="membro__funcao">Desenvolvedor Web</p>
-                <input type="button" value="Saber mais" class="membro__btn-sobre">
+                <p class="membro__funcao">Co-facilitadora</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/dayse-campos-dev/"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/dayseCampos"><i class='bx bxl-github' ></i></a>
+                </div>
             </div>
             <div class="equipe__content">
                 <img src="assets/img/nossa-equipe/matheus.jpeg" alt="" class="membro__img">
                 <h2 class="membro__nome">Matheus Cardoso</h2>
-                <p class="membro__funcao">Desenvolvedor Web</p>
-                <input type="button" value="Saber mais" class="membro__btn-sobre">
+                <p class="membro__funcao">Colaborador</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/matheus-cardoso-5938b0252/"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/cardosomath"><i class='bx bxl-github' ></i></a>
+                </div>
             </div>
             <div class="equipe__content">
                 <img src="assets/img/nossa-equipe/natalia.jpeg" alt="" class="membro__img">
                 <h2 class="membro__nome">Natalia Carvalho</h2>
-                <p class="membro__funcao">Desenvolvedor Web</p>
-                <input type="button" value="Saber mais" class="membro__btn-sobre">
+                <p class="membro__funcao">Gestora de engajamento</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/nxtxlixlc/"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/natulims"><i class='bx bxl-github' ></i></a>
+                </div>
             </div>
             <div class="equipe__content">
                 <img src="assets/img/nossa-equipe/pedro.jpg" alt="" class="membro__img">
                 <h2 class="membro__nome">Pedro Moura</h2>
-                <p class="membro__funcao">Desenvolvedor Web</p>
-                <input type="button" value="Saber mais" class="membro__btn-sobre">
+                <p class="membro__funcao">Colaborador</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/pedro-moura-48a29819a"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/plfmoura"><i class='bx bxl-github' ></i></a>
+                </div>
             </div>
             <div class="equipe__content">
                 <img src="assets/img/nossa-equipe/rafaela.jpeg" alt="" class="membro__img">
                 <h2 class="membro__nome">Rafaela Ochotorena</h2>
-                <p class="membro__funcao">Desenvolvedor Web</p>
-                <input type="button" value="Saber mais" class="membro__btn-sobre">
+                <p class="membro__funcao">Gestora de conhecimento</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/Kdrafaelo"><i class='bx bxl-github' ></i></a>
+                </div>
             </div>
         </div>
     </main>
@@ -88,14 +133,12 @@
         <div class="footer">
             <div class="principal-footer">
                 <div class="caixa-footer">
-                    <h4>Logo</h4>
-                    <ul>
-                        <li>cnpj: xx xxxxxx</li>
+                    <img src="img/logo1.png" class="logo-footer">
+                    <ul class="contato-footer">
+                        <li>cnpj: 52.590.858/0001-57</li>
                         <li>bolodecake@gmail.com</li>
                     </ul>
                 </div>
-
-                <hr class="linha__fundo">
 
                 <div class="caixa-footer">
                     <h4>Cadastre seu email e fique por dentro das novidades!</h4>
@@ -118,7 +161,9 @@
     
 </body>
 
-<!--js menu sticky-->
+<!--js carrinho-->
+<script src="script/carrinho.js"></script>
+<!--js menu sticky e responsivo-->
 <script src="script/sticky.js"></script>
 
 </html>
