@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
 
+    <!--icone da aba-->
+    <link rel="icon" href="img/icone.png">
+
     <!--css-->
 	<link rel="stylesheet" type="text/css" href="home.css">
 
@@ -14,36 +17,32 @@
     <!--fonte título-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
 
     <!--fonte texto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-
-
-
 </head>
 <body>
 
     <!----header---->
     <header>
-        <a href="#" class="logo">Logo</a>
+        <a href="#" class="logo"><img src="img/logo1.png"></a>
         <div class='bx bx-menu' id="icone-menu"></div>
 
         <nav>
         <ul class="barra-menu">
             <li><a href="index.html">Home</a></li>
             
-            <li><a href="#">Sobre nós <i class='bx bx-chevron-down' ></i></a>
+            <li><a href="sobre-nos.html">Sobre nós <i class='bx bx-chevron-down' ></i></a>
                 <ul>
                     <li><a href="nossa-equipe.html">Nossa equipe</a></li>
                 </ul>
             </li>
 
             <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="contato.html">Contato</a></li>
             <li id="icone-carrinho"><a href="#"><i class='bx bx-cart-alt'></i></a></li>
         </ul> <!--carrinho-->
         <div class="carrinho">
@@ -82,7 +81,7 @@
         </div>
     </section>
 
-    <!----desenhos natalia---->
+    <!----beneficios---->
     <section>
         <div class="titulo">
             <h2>Benefícios da nossa loja =)</h2>
@@ -91,7 +90,7 @@
         <div class="container-itens">
             <div class="caixa-img">
                 <div class="img-desenhos">
-                    <img src="img/bons-ingredientes.png">
+                        <img src="img/bons-ingredientes.png">
                 </div>
             </div>
 
@@ -119,23 +118,23 @@
         <div class="container-itens">
             <div class="caixa-img">
                 <div class="img-doces">
-                    <img src="https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/10/a21f824b-naked-cake-_-tm-kite-festa_-faca-venda-_-karen-silva-_-alta-1.jpg">
+                    <a href="produtos.html"><img src="img/bolo2.jpeg"></a>
                 </div>
                 <h3>Bolos</h3>
             </div>
 
             <div class="caixa-img">
                 <div class="img-doces">
-                    <img src="https://files.nsctotal.com.br/s3fs-public/styles/paragraph_image_style/public/graphql-upload-files/shutterstock_1117053002.jpg?H3sLW3uHUrI2wskn4YxzOwfvgNophHcQ&itok=IDAo3GHt">
+                    <a href="produtos.html"><img src="img/brigadeiro.jpg"></a>
                 </div>
-                <h3>Doces</h3>
+                <h3>Docinhos de festa</h3>
             </div>
 
             <div class="caixa-img">
-                <div class="img-doces">
-                    <img src="https://www.sweetpoint.com.br/wp-content/uploads/2020/06/kit-festa-3196-1-1.jpg">
+                <a href="produtos.html"><div class="img-doces"></a>
+                    <img src="img/doce.jpg">
                 </div>
-                <h3>Kit festa</h3>
+                <h3>Sobremesas</h3>
             </div>
         </div>
     </section>
@@ -146,9 +145,9 @@
             <div class="footer">
             <div class="principal-footer">
                 <div class="caixa-footer">
-                    <h4>Logo</h4>
-                    <ul>
-                        <li>cnpj: xx xxxxxx</li>
+                    <img src="img/logo1.png" class="logo-footer">
+                    <ul class="contato-footer">
+                        <li>cnpj: 52.590.858/0001-57</li>
                         <li>bolodecake@gmail.com</li>
                     </ul>
                 </div>
@@ -164,7 +163,7 @@
                             <input type="checkbox" id="check">
                             <label for="check">Eu concordo em receber emails com novidades, promoções, etc.</label>
                         </li>
-                        <button>Enviar</button>
+                        <button class="btn-footer">Enviar</button>
                     </ul>
                 </div>
 
@@ -172,10 +171,10 @@
         </div>
      </section>
     
-     <!--js menu sticky-->
-
+     <!--js carrinho-->
      <script src="script/carrinho.js"></script>
 
+     <!--js menu sticky e responsivo-->
     <script type="text/javascript" src="script/sticky.js"></script>
 
 </body>
