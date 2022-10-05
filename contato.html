@@ -36,50 +36,16 @@
         <a href="#" class="logo"><img src="img/logo1.png"></a>
         <div class="bx bx-menu" id="icone-menu"></div>
 
-        <nav>
             <ul class="barra-menu">
                 <li><a href="index.html">Home</a></li>
-
-                <li>
-                    <a href="sobre-nos.html">Sobre nós <i class="bx bx-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="nossa-equipe.html">Nossa equipe</a></li>
-                    </ul>
-                </li>
-
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
+                <li><a href="nossa-equipe.html">Nossa equipe</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li>
-                    <li id="icone-carrinho"><a href="#"><i class='bx bx-cart-alt'></i></a></li>
-        </ul> <!--carrinho-->
-        <div class="carrinho">
-            <h2 class="titulo-carrinho">Seus itens</h2>
-
-            <!--conteudo-->
-            <div class="conteudo-carrinho">
-                
-                <div class="caixa-carrinho">
-                    <img src="img/bons-ingredientes.png" alt="" class="img-carrinho">
-                    <div class="caixa-itens">
-                        <div class="produtos-carrinho-titulo">Bolo</div>
-                        <div class="preco-carrinho">R$30</div>
-                        <input type="number" value="1" class="quantidade-carrinho">
-                    </div>
-                    <!--remover-->
-                    <i class='bx bxs-trash-alt remover-carrinho'></i>
-                </div>
-            </div>
-            <!--total-->
-            <div class="total">
-                <div class="titulo-total">Total</div>
-                <div class="preco-total">R$0</div>
-            </div>
-            <!--botoes-->
-            <button type="button" class="btn-comprar">Comprar agora</button>
-            <i class='bx bx-x' id="fechar-carrinho"></i>
-        </div>
-        </nav>
+            </ul>
     </header>
+
+    
     <!--formulario-->
     <section class="container">
         <div class="wrapper">
@@ -87,13 +53,14 @@
                 <h1>Sugestões, dúvidas ou outros assuntos?</h1>
                 <span>Entre em contato conosco!</span>
             </div>
+            <form id="form" action="/" method="GET">
             <div class="contact-form">
                 <div class="input-fields">
-                    <input type="text" class="input" placeholder="Nome Completo">
-                    <input type="email" class="input" placeholder="Email">
-                    <input type="tel" class="input" placeholder="Telefone">
-                    <input type="tel" class="input" placeholder="Número do Pedido">
-                    <input type="text" class="input" placeholder="Motivo do Contato">
+                    <input type="text" class="input" id="nome" placeholder="Nome Completo">
+                    <input type="email" class="input" id="email-contato" placeholder="Email">
+                    <input type="tel" class="input" id="telefone" placeholder="Telefone">
+                    <input type="tel" class="input" id="numero" placeholder="Número do Pedido">
+                    <input type="text" class="input" id="texto" placeholder="Motivo do Contato">
                     <h2>Você também pode nos ligar</h2>
                     <span>(21)99255-3245</span>
                     <H2>Localização:</H2>
@@ -102,8 +69,9 @@
 
                 <div class="msg">
                     <textarea placeholder="Escreva aqui sua mensagem"></textarea>
-                    <div class="btn">Enviar</div>
+                    <button class="btn">Enviar</button>
                 </div>
+            </form>
             </div>
         </div>
     </section>
