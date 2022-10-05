@@ -1,8 +1,8 @@
 var swiper = new Swiper(".slide-content-bolos", {
-    slidesPerView: 3,
-    spaceBetween: 20,
-    slidesPerGroup: 1,
-    loop: true,
+    slidesPerView: 3,//quantidade de cards aparentes
+    spaceBetween: 5,// espaço entre os cards
+    slidesPerGroup: 1, //quantos cards vão aparecer por clique
+    loop: true, //se será infinito
     loopFillGroupWithBlank: true,
     pagination: {
       el: ".swiper-pagination",
@@ -12,11 +12,27 @@ var swiper = new Swiper(".slide-content-bolos", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+// para ver as breakpoints, da responsividade por tamanho de tela e quantidade de slides.
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 2,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      720: {
+        slidesPerView: 3,
+      },
+      1140: {
+        slidesPerView: 4,
+      },
+    }
   });
 
   var swiper = new Swiper(".slide-content-doces", {
     slidesPerView: 4,
-    spaceBetween: 20,
+    spaceBetween: 5,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
@@ -28,5 +44,21 @@ var swiper = new Swiper(".slide-content-bolos", {
       nextEl: ".swiper-button-next-doce",
       prevEl: ".swiper-button-prev-doce",
     },
+
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 2,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      720: {
+        slidesPerView: 3,
+      },
+      1140: {
+        slidesPerView: 4,
+      },
+    }
   });
 
