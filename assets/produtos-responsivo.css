@@ -99,12 +99,85 @@
     .header__chamada {
         max-width: 720px;
         height: 70vh;
+}
+
+@media (max-width: 1140px) {
+/*cabecalho e slide de backgrounds*/
+.header__chamada {
+    max-width: 1140px;
+    width: 100vw;
+    height: 90vh;
+}
+
+/*banner de desconto*/
+.desconto__container {
+    width: 80%;
+    height: 70%;
+}
+
+/*primeira DIV*/
+.desconto__valor {
+    width: 36%;
+    font-size: 6.5rem;
+    padding: 1rem;
+}
+
+/*segunda DIV*/
+.desconto__textos {
+    width: 60%;
+}
+
+.desc__texto {
+    margin: .20rem;
+    font-size: 3.3rem;
+}
+
+.desc__codigo {
+    margin: 1rem;
+    width: 75%;
+    padding: .3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: var(--second-color);
+}
+
+.desc__btn {
+    width: 60%;
+    padding: .2rem 2rem;
+}
+
+.desc__btn:hover {
+    background: #391a1a;
+    
+}
+/*terceira DIV*/
+.desconto__close {
+    width: 4%;
+    height: 100%;
+    background-color: #fef2e585;
+
+}
+
+.desconto__close h2 {
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+    
+}
+
+@media (max-width: 720px) {
+        .header__chamada {
+        max-width: 720px;
+        height: 90vh;
         animation: slide-backgrounds 30s ease-in-out infinite;
     }
 
     .desconto__container {
         -webkit-text-stroke: 1px black;
         width: 90%;
+        width: 70%;
         height: 90%;
         display: flex;
         margin: 0 auto;
@@ -238,7 +311,6 @@
     }
 
     /*div do botão e codigo (TERCEIRA)*/
-
     .desc__codigo {
         margin: 1rem;
         width: 92%;
@@ -259,6 +331,7 @@
         max-width: 90%;
         max-height: 220vw;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -317,7 +390,6 @@
     }
 
     /*div do botão e codigo (TERCEIRA)*/
-
     .desc__codigo {
         margin: 1rem;
         width: 92%;
@@ -338,5 +410,4 @@
         max-width: 90%;
         max-height: 220vw;
     }
-
 }
