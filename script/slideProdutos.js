@@ -31,11 +31,7 @@ var swiper = new Swiper(".slide-content-bolos", {
         slidesPerView: 4,
       },
 
-      1400: {
-        slidesPerView: 5,
-      },
-
-      1800: {
+      1560: {
         slidesPerView: 6,
         spaceBetween: 10,
         
@@ -76,11 +72,7 @@ var swiper = new Swiper(".slide-content-bolos", {
         slidesPerView: 4,
       },
 
-      1400: {
-        slidesPerView: 5,
-      },
-
-      1800: {
+      1560: {
         slidesPerView: 6,
         spaceBetween: 10,
         
