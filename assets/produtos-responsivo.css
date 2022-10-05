@@ -159,12 +159,6 @@
     .desc__btn {
         width: 70%;
     }
-    
-    /*main* tamanho da altura da tela...*/
-    .produtos {
-        max-width: 90%;
-        max-height: 220vw;
-    }
 
 }
 
@@ -243,12 +237,6 @@
     .desc__btn {
         width: 70%;
     }
-
-    /*main* tamanho da altura da tela...*/
-    .produtos {
-        max-width: 90%;
-        max-height: 220vw;
-    }
 }
 
 @media (max-width: 480px) {
@@ -321,12 +309,6 @@
 
     .desc__btn {
         width: 70%;
-    }
-
-    /*main* tamanho da altura da tela...*/
-    .produtos {
-        max-width: 90%;
-        max-height: 220vw;
     }
 
 }
