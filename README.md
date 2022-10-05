@@ -20,6 +20,3 @@ Você pode acessá-lo através desse <a href="https://daysecampos.github.io/bolo
 <p align="justify"><strong>HTML</strong>: utilizado para criação base da página, utilização de elementos semânticos.<br>
 <strong>CSS</strong>: estilização das páginas, deixando-as mais atraentes para quem visitar o site.<br>
 <strong>JavaScript</strong>: dando mais liberdade de interação entre usuário e site, utilizado para menu responsivo e para os campos do formulário de contato.</p>
-
-<h3>&#128736; CONTRIBUIDORES</h3>
-<p align="justify"></p>
