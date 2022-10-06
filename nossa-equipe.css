@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #391A1A;
+    --text-color: #FEF2E5;
+    --main-color: #FDAB46;
+    --second-color: #FD4243;
+    --big-font: 6.5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+.titulo__equipe {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: var(--big-font);
+    color: var(--main-color);
+    font-family: 'Ms Madi', cursive;
+    font-weight: 500;
+}
+
+.equipe {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-equipe {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.container-equipe img {
+    width: 100%;
+    height: 205px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.caixa {
+    padding: 16px;
+    background: #945134;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+
+.caixa h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.caixa h5 {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.icones i {
+    display: inline-block;
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 0 8px;
+    transition: all .38s ease;
+}
+
+.icones i {
+    width: 35px;
+    height: 35px;
+    background: var(--main-color);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.icones i:hover {
+    
+    color: var(--bg-color);
+    background: var(--text-color);
+}
+
+icones i:hover {
+    transform: scale(1.2);
+}
+
+.caixa:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+/*media query*/
+
+@media (max-width: 1240px) {
+    .equipe {
+        width: 100%;
+        height: auto;
+        padding: 90px 2%;
+    }
+    .centro h1 {
+        font-size: 3.2rem;
+    }
+}

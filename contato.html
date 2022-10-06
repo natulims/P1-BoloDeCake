@@ -56,11 +56,11 @@
             <form id="form" action="/" method="GET">
             <div class="contact-form">
                 <div class="input-fields">
-                    <input type="text" class="input" id="nome" placeholder="Nome Completo">
-                    <input type="email" class="input" id="email-contato" placeholder="Email">
-                    <input type="tel" class="input" id="telefone" placeholder="Telefone">
-                    <input type="tel" class="input" id="numero" placeholder="Número do Pedido">
-                    <input type="text" class="input" id="texto" placeholder="Motivo do Contato">
+                    <input type="text" class="input" id="nome" required placeholder="Nome Completo">
+                    <input type="email" class="input" id="email-contato" required placeholder="Email">
+                    <input type="tel" class="input" id="telefone" required placeholder="Telefone">
+                    <input type="tel" class="input" id="numero" required placeholder="Número do Pedido">
+                    <input type="text" class="input" id="texto" required placeholder="Motivo do Contato">
                     <h2>Você também pode nos ligar</h2>
                     <span>(21)99255-3245</span>
                     <H2>Localização:</H2>
@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="msg">
-                    <textarea placeholder="Escreva aqui sua mensagem"></textarea>
+                    <textarea required placeholder="Escreva aqui sua mensagem"></textarea>
                     <button class="btn">Enviar</button>
                 </div>
             </form>
