@@ -19,6 +19,16 @@
     --p-font: 1.1rem;
 }
 
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 10px;    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--second-color);    
+    border-radius: 10px;       
+  }
+
 *::selection {
     background: var(--main-color);
     color: #945134;
