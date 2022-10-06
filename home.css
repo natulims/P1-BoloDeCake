@@ -436,7 +436,7 @@ nav ul ul ul li {
 @media (max-width: 1040px) {
     header {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
     }
     #icone-menu {
         display: block;
