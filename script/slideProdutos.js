@@ -46,12 +46,12 @@ var swiper = new Swiper(".slide-content-bolos", {
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
-      el: ".swiper-pagination-doce",
+      el: ".swiper-pagination",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-doce",
-      prevEl: ".swiper-button-prev-doce",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
 
     breakpoints:{
