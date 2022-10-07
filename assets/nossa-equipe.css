@@ -12,111 +12,86 @@ body {
     --p-font: 1.1rem;
 }
 
-.titulo__equipe {
-    margin-top: 8rem;
-    text-align: center;
+.titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 50px;
     font-size: var(--big-font);
     color: var(--main-color);
     font-family: 'Ms Madi', cursive;
     font-weight: 500;
 }
 
-.equipe {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    width: 300px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: var(--bg-color);
+    box-shadow: var(--second-color) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 20px;
+}
+
+.container .card .caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
-.container-equipe {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.container-equipe img {
-    width: 100%;
-    height: 205px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-}
-
-.caixa {
-    padding: 16px;
-    background: #945134;
-    border-radius: 15px;
-    transition: all .38s ease;
-}
-
-.caixa h3 {
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--text-color);
-    margin-bottom: 8px;
-}
-
-.caixa h5 {
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text-color);
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-}
-
-.icones i {
-    display: inline-block;
-    font-size: 20px;
-    color: var(--text-color);
-    margin: 0 8px;
-    transition: all .38s ease;
-}
-
-.icones i {
-    width: 35px;
-    height: 35px;
-    background: var(--main-color);
-    color: var(--text-color);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+.container .card .caixa .img-equipe {
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    transition: .4s;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 
-.icones i:hover {
-    
-    color: var(--bg-color);
-    background: var(--text-color);
+.container .card .caixa .img-equipe img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-icones i:hover {
-    transform: scale(1.2);
+.container .card .caixa .conteudo h4 {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
-.caixa:hover {
-    transform: translateY(-10px);
-    cursor: pointer;
+.container .card .caixa .conteudo h5 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-/*media query*/
+.container .card .caixa .icones {
+    margin-top: 20px;
+}
 
-@media (max-width: 1240px) {
-    .equipe {
-        width: 100%;
-        height: auto;
-        padding: 90px 2%;
-    }
-    .centro h1 {
-        font-size: 3.2rem;
-    }
+.container .card .caixa .icones a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 30px;
+    margin: 10px;
+    transition: color .4s var(--second-color);
+}
+
+.container .card .caixa .icones a:hover {
+    color: var(--text-color);
 }
