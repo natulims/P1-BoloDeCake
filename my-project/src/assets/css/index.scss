@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//paleta de cores
+$background-color: #f8f4ec;
+$main-text-color: #2F266C;
+$title-text-color: #583420;
+$subtitle-text-color: #ffae94;
+$accent-color: #e16248;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $background-color;
+  color: $main-text-color;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: bolder;
+  font-size: 6rem;
+  color: $title-text-color;
+}
+
+svg {
+  width: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  font-family: "Bree Serif", serif;
+}
