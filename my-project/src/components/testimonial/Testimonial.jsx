@@ -41,19 +41,19 @@ function Testimonial() {
         <div>
           <article className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
             <div class="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-              <blockquote class="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
-                <div class="flex  items-center gap-4">
+              <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
+                <div className="flex  items-center gap-4">
                   <img
                     alt="Man"
                     src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                    class="h-16 w-16 rounded-full object-cover"
+                    className="h-16 w-16 rounded-full object-cover"
                   />
 
                   <div>
-                    <div class="flex justify-center gap-0.5 text-fawn">
+                    <div className="flex justify-center gap-0.5 text-fawn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -61,7 +61,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -69,7 +69,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -77,7 +77,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -85,7 +85,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -93,31 +93,31 @@ function Testimonial() {
                       </svg>
                     </div>
 
-                    <p class="mt-1 text-lg font-medium text-cinnabar">
-                      Paul Starr
+                    <p className="mt-1 text-lg font-medium text-cinnabar">
+                      Marina Souza
                     </p>
                   </div>
                 </div>
 
-                <p class="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt voluptatem alias ut provident sapiente repellendus.
+                <p className="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
+                  Pedi um bolo para meu casamento e saiu tudo como planejado,
+                  foram pontuais e estava muito bem feito. Recomendo demais!
                 </p>
               </blockquote>
 
-              <blockquote class="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
-                <div class="flex  items-center gap-4">
+              <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
+                <div className="flex items-center gap-4">
                   <img
                     alt="Man"
                     src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                    class="h-16 w-16 rounded-full object-cover"
+                    className="h-16 w-16 rounded-full object-cover"
                   />
 
                   <div>
-                    <div class="flex justify-center gap-0.5 text-fawn">
+                    <div className="flex justify-center gap-0.5 text-fawn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -125,7 +125,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -133,7 +133,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -141,7 +141,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -149,7 +149,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -157,31 +157,32 @@ function Testimonial() {
                       </svg>
                     </div>
 
-                    <p class="mt-1 text-lg font-medium text-cinnabar">
-                      Paul Starr
+                    <p className="mt-1 text-lg font-medium text-cinnabar">
+                      Renato Augusto
                     </p>
                   </div>
                 </div>
 
-                <p class="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt voluptatem alias ut provident sapiente repellendus.
+                <p className="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
+                  É extremamente difícil achar lugares que vendam bolo vegano e
+                  que sejam de qualidade. Sou cliente há 3 anos e nunca me
+                  arrependi de nenum pedido.
                 </p>
               </blockquote>
 
-              <blockquote class="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
-                <div class="flex  items-center gap-4">
+              <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
+                <div className="flex  items-center gap-4">
                   <img
                     alt="Man"
                     src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                    class="h-16 w-16 rounded-full object-cover"
+                    className="h-16 w-16 rounded-full object-cover"
                   />
 
                   <div>
-                    <div class="flex justify-center gap-0.5 text-fawn">
+                    <div className="flex justify-center gap-0.5 text-fawn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -189,7 +190,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -197,7 +198,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -205,7 +206,7 @@ function Testimonial() {
                       </svg>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -213,15 +214,14 @@ function Testimonial() {
                       </svg>
                     </div>
 
-                    <p class="mt-1 text-lg font-medium text-cinnabar">
-                      Paul Starr
+                    <p className="mt-1 text-lg font-medium text-cinnabar">
+                      Ana Luiza
                     </p>
                   </div>
                 </div>
 
-                <p class="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt voluptatem alias ut provident sapiente repellendus.
+                <p className="line-clamp-2 sm:line-clamp-none mt-4 text-midnightblue">
+                  Sou apaixonada pelos bolos caseiros, são meus favoritos!
                 </p>
               </blockquote>
             </div>
@@ -229,34 +229,30 @@ function Testimonial() {
         </div>
       </section>
 
-      {/* <section class="download-area pt-70 pb-40" data-scroll-index="6">
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-6 col-md-9">
-          <div class="download-image mt-50 wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.5s">
-            <div class="download-shape-1"></div>
-            <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg" alt="" class="image-3"/>
-          </div>
+      <section>
+        <figure className="flex lg:justify-center">
+          <img
+            src="https://64.media.tumblr.com/5719f54dc1d66d507bf3bbcf562f41d2/843f5bf4b39232ec-24/s2048x3072/8915e8ba9c0df86acf9cbd091f6348a6e8752695.pnj"
+            alt=""
+          />
+        </figure>
+        <div className="flex flex-row justify-center mb-10">
+          <button>
+            <img
+              className="w-48"
+              src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png"
+              alt=""
+            />
+          </button>
+          <button>
+            <img
+              className="w-44"
+              src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png"
+              alt=""
+            />
+          </button>
         </div>
-        <div class="col-lg-6">
-          <div class="download-content mt-45 wow fadeInRightBig" data-wow-duration="3s" data-wow-delay="0.5s">
-            <h1 class="title">Faça o download do nosso aplicativo!</h1>
-            <p class="text">Ficou ainda mais fácil usar nossa plataforma! Agora você pode baixar nosso aplicativo
-              e se candidatar em qualquer dispositivo e em qualquer lugar.
-            </p>
-            <ul>
-              <li><a href="" class="app-store">
-                  <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg" alt="/"/>
-                </a></li>
-              <li><a href="" class="play-store">
-                  <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg" alt=""/>
-                </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> */}
+      </section>
     </>
   );
 }

@@ -22,13 +22,13 @@ function Footer() {
           </span>
           <ul className="flex flex-row">
             <li className="text-4xl text-bittersweet hover:text-cinnabar">
-              <i class="bx bxl-twitter"></i>
+              <i className="bx bxl-twitter"></i>
             </li>
             <li className="text-4xl text-bittersweet hover:text-cinnabar">
-              <i class="bx bxl-instagram"></i>
+              <i className="bx bxl-instagram"></i>
             </li>
             <li className="text-4xl text-bittersweet hover:text-cinnabar">
-              <i class="bx bxl-tiktok"></i>
+              <i className="bx bxl-tiktok"></i>
             </li>
           </ul>
         </div>

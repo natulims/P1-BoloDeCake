@@ -38,19 +38,20 @@ function Categories() {
           </span>
         </h1>
 
-        <div className="flex flex-col lg:flex-row justify-center gap-5 ml-10 lg:ml-0">
+        <div className="flex flex-col lg:flex-row justify-center gap-5 mt-10 ml-10 lg:ml-0">
           <div className="w-72 h-96 rounded m-3">
             <div className="h-3/4 w-full overflow-hidden">
               <img
-                className="w-full cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.pexels.com/photos/6157052/pexels-photo-6157052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="piña"
+                className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
+                src="https://images.unsplash.com/photo-1561924607-7e9b21fb51ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="bolos caseiros"
               />
             </div>
-            <div className="w-full shadow-lg bg-seashell h-16 p-3">
+            <div className="w-full h-16 p-3">
               <a href="#" className="mt-2">
-                <span className="text-lg text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
-                  bolo de casamento
+                <div className="divide-y"></div>
+                <span className="text-lg ml-12 text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
+                  bolos caseiros
                 </span>
               </a>
             </div>
@@ -59,15 +60,16 @@ function Categories() {
           <div className="w-72 h-96 rounded m-3">
             <div className="h-3/4 w-full overflow-hidden">
               <img
-                className="w-full cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.pexels.com/photos/6157052/pexels-photo-6157052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="piña"
+                className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
+                src="https://images.unsplash.com/photo-1602351447937-745cb720612f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+                alt="bolos veganos"
               />
             </div>
-            <div className="w-full shadow-lg bg-seashell h-16 p-3">
+            <div className="w-full h-16 p-3">
               <a href="#" className="mt-2">
-                <span className="text-lg text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
-                  bolo de aniversário
+                <div className="divide-y"></div>
+                <span className="text-lg ml-12 text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
+                  bolos veganos
                 </span>
               </a>
             </div>
@@ -76,15 +78,16 @@ function Categories() {
           <div className="w-72 h-96 rounded m-3">
             <div className="h-3/4 w-full overflow-hidden">
               <img
-                className="w-full cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.pexels.com/photos/6157052/pexels-photo-6157052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="piña"
+                className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
+                src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                alt="bolos para casamentos"
               />
             </div>
-            <div className="w-full shadow-lg bg-seashell h-16 p-3">
+            <div className="w-full h-16 p-3">
               <a href="#" className="mt-2">
-                <span className="text-lg text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
-                  bolo caseiro
+                <div className="divide-y"></div>
+                <span className="text-lg ml-5 text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
+                  bolos para casamentos
                 </span>
               </a>
             </div>
@@ -93,15 +96,16 @@ function Categories() {
           <div className="w-72 h-96 rounded m-3">
             <div className="h-3/4 w-full overflow-hidden">
               <img
-                className="w-full cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.pexels.com/photos/6157052/pexels-photo-6157052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="piña"
+                className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
+                src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+                alt="bolos para aniversários"
               />
             </div>
-            <div className="w-full shadow-lg bg-seashell h-16 p-3">
+            <div className="w-full h-16 p-3">
               <a href="#" className="mt-2">
-                <span className="text-lg text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
-                  bolo vegano
+                <div className="divide-y"></div>
+                <span className="text-lg ml-5 text-midnightblue hover:text-[#FE765E] font-semibold uppercase tracking-wide ">
+                  bolos para aniversários
                 </span>
               </a>
             </div>

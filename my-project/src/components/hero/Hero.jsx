@@ -27,10 +27,10 @@ function Hero() {
             e elaborados exclusivamente para você.
           </span>
           <div className="flex flex-row justify-center gap-8">
-            <button className="bg-[#fe765e] hover:bg-[#f16e56] text-white py-2 px-8">
+            {/* <button className="bg-[#fe765e] hover:bg-[#f16e56] text-white py-2 px-8">
               peça ja
-            </button>
-            <button className="bg-transparent py-2 text-midnightblue px-5 font-semibold border-midnightblue hover:border-blue-700 hover:text-blue-600 p-2 border-2">
+            </button> */}
+            <button className="bg-transparent py-2 text-cinnabar px-5 font-semibold border-cinnabar hover:border-bittersweet mt-10 hover:text-bittersweet p-2 border-2">
               <i class="bx bx-book-open font-bold"></i> catalogo
             </button>
           </div>
@@ -46,10 +46,44 @@ function Hero() {
         </div>
       </header>
       <section>
-        <div className="flex justify-center">
+        <div className="flex flex-col justify-center">
+          <h1 className="text-center flex flex-row justify-center gap-6 text-midnightblue lg:mt-24 tracking-tighter text-[20px] lg:text-3xl lg:text-md">
+            <span>
+              <svg
+                preserveAspectRatio="none"
+                data-bbox="0 0 323.295 323.296"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 323.295 323.296"
+                role="presentation"
+                aria-hidden="true"
+                fill="#FE765E"
+              >
+                <g>
+                  <path d="M161.647 0l57.151 104.497 104.497 57.15-104.497 57.152-57.151 104.497-57.15-104.497L0 161.647l104.497-57.15L161.647 0z"></path>
+                </g>
+              </svg>
+            </span>
+            Por que <span className="text-bittersweet">escolher</span> a bolo de
+            cake?
+            <span>
+              <svg
+                preserveAspectRatio="none"
+                data-bbox="0 0 323.295 323.296"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 323.295 323.296"
+                role="presentation"
+                aria-hidden="true"
+                fill="#FE765E"
+              >
+                <g>
+                  <path d="M161.647 0l57.151 104.497 104.497 57.15-104.497 57.152-57.151 104.497-57.15-104.497L0 161.647l104.497-57.15L161.647 0z"></path>
+                </g>
+              </svg>
+            </span>
+          </h1>
           <figure>
             <img
-              className=""
+              className="lg:ml-[20rem]"
               src="https://64.media.tumblr.com/957595a7baa230865cf130468659f6cd/94db7c3e77248438-a9/s1280x1920/d51be6ef0eeb1cb071074c85613b32ca25ff4cad.pnj"
               alt=""
             />
