@@ -2,6 +2,26 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    mytheme: {
+      primary: "#2F266C",
+
+      secondary: "#FE765E",
+
+      accent: "#FFBD83",
+
+      neutral: "#FFF5EC",
+
+      "base-100": "#FFF5EC",
+
+      info: "#F84B2C",
+
+      success: "#84DC9C",
+
+      warning: "#FFB06A",
+
+      error: "#DF3C1F",
+    },
+
     extend: {
       colors: {
         seashell: "#FFF5EC",
