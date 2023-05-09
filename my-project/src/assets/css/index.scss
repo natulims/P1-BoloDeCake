@@ -4,7 +4,7 @@
 
 //paleta de cores
 $background-color: #f8f4ec;
-$main-text-color: #2F266C;
+$main-text-color: #2f266c;
 $title-text-color: #583420;
 $subtitle-text-color: #ffae94;
 $accent-color: #e16248;
@@ -13,6 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: $background-color;
   color: $main-text-color;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {

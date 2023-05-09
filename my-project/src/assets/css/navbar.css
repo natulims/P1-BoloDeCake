@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  vertical-align: middle;
+  font-weight: bolder;
+}
+.navbar ul li {
+  position: relative;
+}
+.navbar ul li:hover {
+  color: #e16248;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,27 @@
+//paleta de cores
+$background-color: #f8f4ec;
+$main-text-color: #2f266c;
+$title-text-color: #583420;
+$subtitle-text-color: #ffae94;
+$accent-color: #e16248;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    vertical-align: middle;
+    font-weight: bolder;
+
+    li {
+      position: relative;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}

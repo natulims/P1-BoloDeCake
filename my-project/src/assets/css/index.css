@@ -4,7 +4,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f8f4ec;
-  color: #2F266C;
+  color: #2f266c;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
