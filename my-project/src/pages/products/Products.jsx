@@ -21,9 +21,6 @@ function Products() {
               Nosso cardápio é repleto de variedades de sabores para você
               experimentar! Aproveite e peça já o seu bolo!
             </p>
-            {/* <button className="btn border-cinnabar hover:border-bittersweet ring-2 ring-cinnabar bg-cinnabar hover:bg-bittersweet text-whitesmoke">
-              peça já
-            </button> */}
           </div>
         </div>
       </div>
