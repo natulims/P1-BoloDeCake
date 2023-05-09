@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../utilities/variant";
 import clientimage1 from "../../assets/img/client1.webp";
 import clientimage2 from "../../assets/img/client2.webp";
 import clientimage3 from "../../assets/img/client3.webp";
@@ -7,7 +9,13 @@ import download from "../../assets/img/download.webp";
 function Testimonial() {
   return (
     <>
-      <section className="mt-10 lg:mt-28">
+      <motion.section
+        variants={fadeIn("up")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.2 }}
+        className="mt-10 lg:mt-28"
+      >
         <h1 className="text-center flex flex-row justify-center gap-6 text-midnightblue text-3xl lg:text-md">
           <span>
             <svg
@@ -231,14 +239,11 @@ function Testimonial() {
             </div>
           </article>
         </div>
-      </section>
+      </motion.section>
 
       <section>
         <figure className="flex lg:justify-center">
-          <img
-            src={download}
-            alt=""
-          />
+          <img src={download} alt="" />
         </figure>
         <div className="flex flex-row justify-center mb-10">
           <button>

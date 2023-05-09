@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../utilities/variant";
 import hero from "../../assets/img/hero.svg";
 import banner from "../../assets/img/banner.webp";
 import bonus from "../../assets/img/bonus.webp";
@@ -7,7 +9,11 @@ function Hero() {
   const backgroundImage = hero;
   return (
     <>
-      <header
+      <motion.header
+        variants={fadeIn("down")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.2 }}
         className="flex lg:flex-row justify-around bg-[#FFF5EC] flex-col w-full h-screen"
         style={{
           backgroundImage: `url(${backgroundImage})`,
@@ -43,7 +49,7 @@ function Hero() {
             />
           </figure>
         </div>
-      </header>
+      </motion.header>
       <section>
         <div className="flex flex-col justify-center">
           <h1 className="text-center flex flex-row justify-center gap-6 text-midnightblue lg:mt-24 tracking-tighter text-[20px] lg:text-3xl lg:text-md">
