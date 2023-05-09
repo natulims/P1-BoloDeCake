@@ -8,10 +8,10 @@ import Cakes from "../../pages/products/Cakes";
 function ToggleCake() {
   return (
     <>
-      <section className="grid w-full grid-cols-1 gap-10">
+      <section className="lg:grid w-full lg:grid-cols-1 gap-10">
         {" "}
         <Tab.Group>
-          <div className="flex flex-row justify-center  gap-10">
+          <div className="flex flex-row justify-center ml-28 lg:ml-0  gap-10">
             {" "}
             <Tab.List>
               <Tab className="ui-selected:bg-blue-500 mr-5 focus:ring-cinnabar transition ease-out border-fawn py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
