@@ -1,10 +1,13 @@
 import React from "react";
+import natalia from "../../assets/img/natalia.webp";
+import matheus from "../../assets/img/matheus.webp";
+import dayse from "../../assets/img/dayse.webp";
 
 function Team() {
   return (
     <>
-      <section>
-        <h1 className="text-center flex flex-row justify-center gap-6 text-midnightblue capitalize text-3xl lg:text-md">
+      <section className="">
+        <h1 className=" text-center flex flex-row justify-center gap-6 text-midnightblue capitalize text-3xl lg:text-md">
           <span>
             <svg
               preserveAspectRatio="none"
@@ -48,7 +51,7 @@ function Team() {
                 <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                   <img
                     className="mask mask-hexagon cursor-pointer"
-                    src="https://media.licdn.com/dms/image/D4D03AQElqAwUmu1WNw/profile-displayphoto-shrink_800_800/0/1676508361621?e=1687996800&v=beta&t=xXU0wGIfpxgjPUYICK2fBjeArGSaUEwUuRMyIonV6JU"
+                    src={natalia}
                     alt=""
                   />
                   <div class="mask mask-hexagon absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-bittersweet bg-fixed opacity-0 transition duration-500 ease-in-out hover:opacity-50"></div>
@@ -81,11 +84,7 @@ function Team() {
             <div className="flex flex-col ml-10 justify-center">
               <figure>
                 <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
-                  <img
-                    className="mask mask-hexagon"
-                    src="https://media.licdn.com/dms/image/C4D03AQHc-U649DnKRg/profile-displayphoto-shrink_800_800/0/1658433712509?e=1687996800&v=beta&t=4c5rc7ovCsu9gRExLDBI88F6kOfdCFj-EGLhPMiMNwU"
-                    alt=""
-                  />
+                  <img className="mask mask-hexagon" src={dayse} alt="" />
                   <div class="mask mask-hexagon absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-bittersweet bg-fixed opacity-0 transition duration-500 ease-in-out hover:opacity-50"></div>
                 </div>
               </figure>
@@ -116,11 +115,7 @@ function Team() {
             <div className="flex flex-col ml-10 justify-center">
               <figure>
                 <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
-                  <img
-                    className="mask mask-hexagon"
-                    src="https://media.licdn.com/dms/image/D4E35AQFuiF_qLHv4jQ/profile-framedphoto-shrink_800_800/0/1665057639392?e=1683255600&v=beta&t=98dMeEzJXdjJZSBs4jbiasIkZfS9S9bhCvj8R6jfk8Q"
-                    alt=""
-                  />
+                  <img className="mask mask-hexagon" src={matheus} alt="" />
                   <div class="mask mask-hexagon absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-bittersweet bg-fixed opacity-0 transition duration-500 ease-in-out hover:opacity-50"></div>
                 </div>
               </figure>
