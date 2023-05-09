@@ -14,12 +14,18 @@ function ToggleCake() {
           <div className="flex flex-row justify-center  gap-10">
             {" "}
             <Tab.List>
-              <Tab className="ui-selected:bg-blue-500 mr-5 py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 border-black ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
-                Tab 1
+              <Tab className="ui-selected:bg-blue-500 mr-5 focus:ring-cinnabar transition ease-out border-fawn py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
+                Bolos de Aniversário
               </Tab>
-              <Tab>Tab 2</Tab>
-              <Tab>Tab 3</Tab>
-              <Tab>Tab 4</Tab>
+              <Tab className="ui-selected:bg-blue-500 mr-5 focus:ring-cinnabar transition ease-out border-fawn py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
+                Bolos Veganos
+              </Tab>
+              <Tab className="ui-selected:bg-blue-500 mr-5 focus:ring-cinnabar transition ease-out border-fawn py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
+                Bolos de Casamento
+              </Tab>
+              <Tab className="ui-selected:bg-blue-500 mr-5 focus:ring-cinnabar transition ease-out border-fawn py-2 px-4 mt-5 rounded bg-fawn text-whitesmoke hover:bg-bittersweet border-2 ui-selected:text-white ui-not-selected:bg-white ui-not-selected:text-black">
+                Bolos Caseiros
+              </Tab>
             </Tab.List>
           </div>
           <Tab.Panels>
