@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.navbar__image {
+  width: 5em;
+  height: 5em;
+}
 .navbar ul {
   display: flex;
   flex-direction: row;

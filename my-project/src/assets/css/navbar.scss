@@ -10,6 +10,11 @@ $accent-color: #e16248;
   justify-content: space-between;
   align-items: center;
 
+  &__image{
+    width: 5em;
+    height: 5em;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
