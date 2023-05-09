@@ -1,43 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "../../assets/css/navbar.css";
 
 function Navbar() {
-  
   return (
     <>
-      <nav className="navbar bg-whitesmoke">
-        <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">LOGO</a>
+      <nav className="navbar">
+        <div className="navbar__logo">
+          <img src="navbar__image" alt="logo" />
         </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
-            <li className="hover:bg-bittersweet rounded focus:bg-bit">
-              <a>Home</a>
-            </li>
-            <li><a href="">Equipe</a></li>
-            <li tabIndex={0}>
-              <a>
-                Produtos
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2 bg-base-100">
-                <li>
-                  <a>Bolos Veganos</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+        <div className="navbar__links">
+          <ul>
+            <li>
+              <Link to="/">home</Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link to="/products">produtos</Link>
+            </li>
+            <li>
+              <Link to="/team">nossa equipe</Link>
+            </li>
+            <li>
+              <Link to="/cart">
+                <i className="bx bxs-cart text-2xl align-middle text-cinnabar"></i>
+              </Link>
             </li>
           </ul>
         </div>

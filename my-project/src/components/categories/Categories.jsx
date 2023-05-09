@@ -1,4 +1,8 @@
 import React from "react";
+import cake1 from "../../assets/img/bolo1.webp";
+import cake2 from "../../assets/img/bolo2.webp";
+import cake3 from "../../assets/img/bolo3.webp";
+import cake4 from "../../assets/img/bolo4.webp";
 
 function Categories() {
   return (
@@ -43,7 +47,7 @@ function Categories() {
             <div className="h-3/4 w-full overflow-hidden">
               <img
                 className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.unsplash.com/photo-1561924607-7e9b21fb51ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                src={cake4}
                 alt="bolos caseiros"
               />
             </div>
@@ -61,7 +65,7 @@ function Categories() {
             <div className="h-3/4 w-full overflow-hidden">
               <img
                 className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.unsplash.com/photo-1602351447937-745cb720612f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+                src={cake3}
                 alt="bolos veganos"
               />
             </div>
@@ -79,7 +83,7 @@ function Categories() {
             <div className="h-3/4 w-full overflow-hidden">
               <img
                 className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                src={cake1}
                 alt="bolos para casamentos"
               />
             </div>
@@ -97,7 +101,7 @@ function Categories() {
             <div className="h-3/4 w-full overflow-hidden">
               <img
                 className="mask mask-hexagon w-[18rem] cursor-pointer max-w-xs hover:scale-105 transition  duration-300 ease-in-out h-full object-cover"
-                src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+                src={cake2}
                 alt="bolos para aniversários"
               />
             </div>

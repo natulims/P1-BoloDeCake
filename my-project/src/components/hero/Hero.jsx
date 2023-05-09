@@ -1,5 +1,7 @@
 import React from "react";
-import hero from "../../assets/img/teste.svg";
+import hero from "../../assets/img/hero.svg";
+import banner from "../../assets/img/banner.webp";
+import bonus from "../../assets/img/bonus.webp";
 
 function Hero() {
   const backgroundImage = hero;
@@ -39,8 +41,8 @@ function Hero() {
           <figure>
             <img
               className="w-[40rem] mt-10"
-              src="https://64.media.tumblr.com/10cd1db43f646511220a9608a54aeed8/77d1fd0eeaf12c54-d9/s640x960/247ce7745a1070417aca70d16a256c1e714dc0a7.pnj"
-              alt=""
+              src={banner}
+              alt="banner do bolo"
             />
           </figure>
         </div>
@@ -84,7 +86,7 @@ function Hero() {
           <figure>
             <img
               className="lg:ml-[20rem]"
-              src="https://64.media.tumblr.com/957595a7baa230865cf130468659f6cd/94db7c3e77248438-a9/s1280x1920/d51be6ef0eeb1cb071074c85613b32ca25ff4cad.pnj"
+              src={bonus}
               alt=""
             />
           </figure>

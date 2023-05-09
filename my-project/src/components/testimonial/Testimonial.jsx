@@ -1,4 +1,8 @@
 import React from "react";
+import clientimage1 from "../../assets/img/client1.webp";
+import clientimage2 from "../../assets/img/client2.webp";
+import clientimage3 from "../../assets/img/client3.webp";
+import download from "../../assets/img/download.webp";
 
 function Testimonial() {
   return (
@@ -44,8 +48,8 @@ function Testimonial() {
               <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
                 <div className="flex  items-center gap-4">
                   <img
-                    alt="Man"
-                    src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                    alt="foto da cliente"
+                    src={clientimage1}
                     className="h-16 w-16 rounded-full object-cover"
                   />
 
@@ -108,9 +112,9 @@ function Testimonial() {
               <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
                 <div className="flex items-center gap-4">
                   <img
-                    alt="Man"
-                    src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                    className="h-16 w-16 rounded-full object-cover"
+                    alt="foto do cliente"
+                    src={clientimage2}
+                    className=" h-16 w-16 rounded-full object-cover"
                   />
 
                   <div>
@@ -173,9 +177,9 @@ function Testimonial() {
               <blockquote className="rounded-lg border-2 hover:shadow-lg shadow-md border-bittersweet bg-seashell p-8">
                 <div className="flex  items-center gap-4">
                   <img
-                    alt="Man"
-                    src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                    className="h-16 w-16 rounded-full object-cover"
+                    alt="foto da cliente"
+                    src={clientimage3}
+                    className="h-16 w-16 object-cover"
                   />
 
                   <div>
@@ -232,7 +236,7 @@ function Testimonial() {
       <section>
         <figure className="flex lg:justify-center">
           <img
-            src="https://64.media.tumblr.com/5719f54dc1d66d507bf3bbcf562f41d2/843f5bf4b39232ec-24/s2048x3072/8915e8ba9c0df86acf9cbd091f6348a6e8752695.pnj"
+            src={download}
             alt=""
           />
         </figure>
