@@ -56,7 +56,7 @@ function About() {
               <img
                 alt="Signage"
                 src="https://cdn-icons-png.flaticon.com/512/8239/8239542.png"
-                class="h-56 w-96 rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
+                className="h-56 w-96 rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
               />
             </figure>
           </div>

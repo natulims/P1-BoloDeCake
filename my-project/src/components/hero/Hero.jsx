@@ -29,11 +29,8 @@ function Hero() {
             e elaborados exclusivamente para você.
           </span>
           <div className="flex flex-row justify-center gap-8">
-            {/* <button className="bg-[#fe765e] hover:bg-[#f16e56] text-white py-2 px-8">
-              peça ja
-            </button> */}
             <button className="bg-transparent py-2 text-cinnabar px-5 font-semibold border-cinnabar hover:border-bittersweet mt-10 hover:text-bittersweet p-2 border-2">
-              <i class="bx bx-book-open font-bold"></i> catalogo
+              <i className="bx bx-book-open font-bold"></i> catalogo
             </button>
           </div>
         </div>
@@ -84,11 +81,7 @@ function Hero() {
             </span>
           </h1>
           <figure>
-            <img
-              className="lg:ml-[20rem]"
-              src={bonus}
-              alt=""
-            />
+            <img className="lg:ml-[20rem]" src={bonus} alt="" />
           </figure>
         </div>
       </section>

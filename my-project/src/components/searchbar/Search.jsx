@@ -3,12 +3,12 @@ import React from "react";
 function Search() {
   return (
     <>
-      <div class="max-w-md mx-auto">
-        <div class="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-whitesmoke overflow-hidden">
-          <div class="grid bg-[#FFBD83] place-items-center h-full w-12">
+      <div className="max-w-md mx-auto">
+        <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-whitesmoke overflow-hidden">
+          <div className="grid bg-[#FFBD83] place-items-center h-full w-12">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 font-bold w-6"
+              className="h-6 font-bold w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="#F3F3F3"
@@ -23,7 +23,7 @@ function Search() {
           </div>
 
           <input
-            class="input input-bordered peer indent-4 h-full focus:text-[#FE765E] w-full bg-white outline-none text-sm pr-2"
+            className="input input-bordered peer indent-4 h-full focus:text-[#FE765E] w-full bg-white outline-none text-sm pr-2"
             type="text"
             id="search"
             placeholder="Buscar no cardápio"

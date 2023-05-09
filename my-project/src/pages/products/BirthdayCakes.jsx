@@ -42,7 +42,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -50,24 +50,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -89,7 +89,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -97,24 +97,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -136,7 +136,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -144,9 +144,9 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
@@ -157,11 +157,11 @@ function BirthdayCakes() {
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -183,7 +183,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -191,24 +191,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -230,7 +230,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -238,24 +238,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -276,7 +276,7 @@ function BirthdayCakes() {
 
           <div className="ml-8 lg:ml-16">
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -284,24 +284,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -322,7 +322,7 @@ function BirthdayCakes() {
 
           <div className="ml-8 lg:ml-16">
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -330,24 +330,24 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
-                  <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-2 mb-5 flex items-center justify-between">
                     <p>
                       <span className="text-darkpurple font-bold">R$69,90</span>
                     </p>
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -369,7 +369,7 @@ function BirthdayCakes() {
           <div className="ml-8 lg:ml-16">
             {" "}
             <div>
-              <div class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
+              <div className="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg bg-white shadow-md">
                 <figure>
                   <img
                     className="rounded"
@@ -377,9 +377,9 @@ function BirthdayCakes() {
                     alt=""
                   />
                 </figure>
-                <div class="mt-4 px-5 pb-5">
+                <div className="mt-4 px-5 pb-5">
                   <a href="#">
-                    <h5 class="text-xl tracking-tighter text-midnightblue font-semibold">
+                    <h5 className="text-xl tracking-tighter text-midnightblue font-semibold">
                       Bolo de brigadeiro de chocolate
                     </h5>
                   </a>
@@ -390,11 +390,11 @@ function BirthdayCakes() {
                   </div>
                   <a
                     href="#"
-                    class="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
+                    className="flex items-center justify-center rounded-md bg-bittersweet hover:bg-cinnabar px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-cinnabar"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2 h-6 w-6"
+                      className="mr-2 h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
