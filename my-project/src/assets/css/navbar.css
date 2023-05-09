@@ -6,6 +6,7 @@
 .navbar__image {
   width: 5em;
   height: 5em;
+  vertical-align: middle;
 }
 .navbar ul {
   display: flex;
